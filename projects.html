@@ -19,8 +19,102 @@
     />
 </head>
 <body>
-    
-    This my project area.
+  
+  <header class="header">
+    <a href="#" class="logo">Kai<span>zen</span></a>
+
+    <i class="fa-solid fa-bars" id="menu-icon" ></i>
+
+    <nav class="navbar" class="active">
+        <a href="index.html">Home</a>
+     <!--  <a href="#services">Services</a>   --> 
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#education">Education</a>
+        <a href="projects.html">Projects</a>
+    <!--  <a href="#experience">Experience</a>   --> 
+        <a href="index.html#contact">Contact</a>
+    </nav>
+</header>
+
+  <section id="projects">
+    <div class="container">
+      <div class="row">
+        <h1 class="section__title">
+          My <span>Projects</span>
+        </h1>
+        <ul class="project__list">
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/projects/notesApp.png" class="project__img" alt="" effect="blur" loading="lazy"/>
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  CRUD: NoteNook
+                </h3>
+                <h4 class="project__description--sub-title">
+                  Python, Flask, SQLAlchemy
+                </h4>
+                <p class="project__description--para">
+                  NoteNook: A note taking app.
+                </p>
+                <div class="project__description--links">
+                  <a
+                    href=""
+                    class="project__description--link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href=""
+                    class="project__description--link"
+                    target="_blank"
+                  >
+                    <i class="fas fa-link" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="" class="project__img" alt="" effect="blur" loading="lazy" />
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  Name of the App
+                </h3>
+                <h4 class="project__description--sub-title">
+                  Tech Used
+                </h4>
+                <p class="project__description--para">
+                  Description
+                </p>
+                <div class="project__description--links">
+                  <a
+                    href=""
+                    class="project__description--link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a
+                    href=""
+                    class="project__description--link"
+                    target="_blank"
+                  >
+                    <i class="fas fa-link" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
