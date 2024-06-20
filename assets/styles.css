@@ -825,7 +825,7 @@ a {
 .project__wrapper {
     position: relative;
     border-radius: 20px;
-    box-shadow: 0 4px 10px var(--misc-color);
+    box-shadow: 0 6px 25px var(--misc-color);
     overflow: hidden;
     background-color: #0b0a0c;
 }
@@ -836,7 +836,7 @@ a {
 }
 
 .project__wrapper:hover {
-    box-shadow: 0 4px 10px var(--main-color);
+    box-shadow: 0 6px 25px var(--main-color);
 }
 
 .project__wrapper:hover .project__img {
