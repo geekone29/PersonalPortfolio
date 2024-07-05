@@ -482,7 +482,8 @@ section {
 
     .skills .container {
         margin-top: 5px;
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -933,14 +934,14 @@ a {
 
 @media (max-width: 600px) {
     .project__description--para {
-      font-size: 5px;
+      font-size: 7px;
     }
     .project__description--title {
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .project__description--sub-title {
-      font-size: 8px;
+      font-size: 10px;
     }
 
 }
