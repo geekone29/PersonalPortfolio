@@ -385,7 +385,7 @@ section {
 }
 
 .skills .heading {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .skills .container {
@@ -484,6 +484,93 @@ section {
         margin-top: 5px;
         width: 90%;
         margin: auto;
+    }
+}
+
+/* certification*/
+
+.cert {
+    background: var(--bg--color);
+}
+
+.cert .heading {
+    margin-top: 5rem;
+}
+
+.cert .container {
+    color: var(--text-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.cert .container .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: auto;
+}
+
+.cert .container .bar .info a{
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px var(--misc-color);
+    transition: 0.3s ease;
+    background: black;
+    cursor: pointer;
+}
+
+.cert .container .bar .info a:hover {
+    box-shadow: 0 4px 10px var(--main-color);
+    transform: scale(1.03);
+}
+
+.cert .container .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main-color);
+}
+
+@media screen and (max-width:800px) {
+    .cert .container {
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .cert .container .row {
+        grid-template-columns: repeat(3,1fr);
+        padding: 2rem;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .cert .container .bar .info a{
+        width: 200px;
+    }
+    .cert .container .bar .info .certs-image {
+        width: 200px;
+    }
+
+    .cert .container .row {
+        grid-template-columns: repeat(1,1fr);
+        padding: 2rem;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .cert .container .bar .info a{
+        width: 200px;
+    }
+    .cert .container .bar .info .certs-image {
+        width: 200px;
     }
 }
 
@@ -731,16 +818,6 @@ section {
     }
 }
 
-
-.footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding: 40px 0;
-    background-color: var(--second-bg-color);
-}
-
-
 @media (max-width:1285px) {
     html {
         font-size: 55%;
@@ -949,7 +1026,11 @@ a {
 /* FOR TRANSITION  */
 
 .footer {
-    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--main-color);
 }
 
 .footer p {
