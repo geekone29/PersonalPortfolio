@@ -552,7 +552,7 @@ section {
 
 @media screen and (max-width:650px) {
     .cert .container .bar .info a{
-        width: 180px;
+        width: 150px;
     }
     .cert .container .bar .info .certs-image {
         width: 180px;
@@ -567,10 +567,10 @@ section {
 
 @media screen and (max-width:450px) {
     .cert .container .bar .info a{
-        width: 180px;
+        width: 150px;
     }
     .cert .container .bar .info .certs-image {
-        width: 180px;
+        width: 150px;
     }
 }
 
